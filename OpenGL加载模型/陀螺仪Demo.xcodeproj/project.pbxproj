@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37727A861A0A7C3400E442FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727A851A0A7C3400E442FC /* Foundation.framework */; };
+		37727A881A0A7C3400E442FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727A871A0A7C3400E442FC /* CoreGraphics.framework */; };
+		37727A8A1A0A7C3400E442FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727A891A0A7C3400E442FC /* UIKit.framework */; };
+		37727A901A0A7C3400E442FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37727A8E1A0A7C3400E442FC /* InfoPlist.strings */; };
+		37727A921A0A7C3400E442FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37727A911A0A7C3400E442FC /* main.m */; };
+		37727A961A0A7C3400E442FC /* ZCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37727A951A0A7C3400E442FC /* ZCAppDelegate.m */; };
+		37727A991A0A7C3400E442FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37727A971A0A7C3400E442FC /* Main_iPhone.storyboard */; };
+		37727A9C1A0A7C3400E442FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37727A9A1A0A7C3400E442FC /* Main_iPad.storyboard */; };
+		37727A9F1A0A7C3400E442FC /* ZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37727A9E1A0A7C3400E442FC /* ZCViewController.m */; };
+		37727AA11A0A7C3400E442FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37727AA01A0A7C3400E442FC /* Images.xcassets */; };
+		37727AA81A0A7C3400E442FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727AA71A0A7C3400E442FC /* XCTest.framework */; };
+		37727AA91A0A7C3500E442FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727A851A0A7C3400E442FC /* Foundation.framework */; };
+		37727AAA1A0A7C3500E442FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37727A891A0A7C3400E442FC /* UIKit.framework */; };
+		37727AB21A0A7C3500E442FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37727AB01A0A7C3500E442FC /* InfoPlist.strings */; };
+		37727AB41A0A7C3500E442FC /* ___DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37727AB31A0A7C3500E442FC /* ___DemoTests.m */; };
+		37727ABF1A0A808C00E442FC /* OldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37727ABE1A0A808C00E442FC /* OldViewController.m */; };
+		37BF74C51A1DC13F00DD5E2C /* ZCMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF74C41A1DC13F00DD5E2C /* ZCMotionManager.m */; };
+		37BF74C91A1DD25E00DD5E2C /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF74C81A1DD25E00DD5E2C /* AGLKContext.m */; };
+		37BF74CC1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF74CB1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.m */; };
+		37BF74CF1A1DD2EB00DD5E2C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF74CE1A1DD2EB00DD5E2C /* OpenGLES.framework */; };
+		37BF74D11A1DD2F500DD5E2C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF74D01A1DD2F500DD5E2C /* GLKit.framework */; };
+		37BF74D41A1DD32300DD5E2C /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF74D31A1DD32300DD5E2C /* OpenGLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37727AAB1A0A7C3500E442FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37727A7A1A0A7C3400E442FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37727A811A0A7C3400E442FC;
+			remoteInfo = "陀螺仪Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37727A821A0A7C3400E442FC /* 陀螺仪Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "陀螺仪Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37727A851A0A7C3400E442FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37727A871A0A7C3400E442FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37727A891A0A7C3400E442FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37727A8D1A0A7C3400E442FC /* 陀螺仪Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "陀螺仪Demo-Info.plist"; sourceTree = "<group>"; };
+		37727A8F1A0A7C3400E442FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37727A911A0A7C3400E442FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37727A931A0A7C3400E442FC /* 陀螺仪Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "陀螺仪Demo-Prefix.pch"; sourceTree = "<group>"; };
+		37727A941A0A7C3400E442FC /* ZCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCAppDelegate.h; sourceTree = "<group>"; };
+		37727A951A0A7C3400E442FC /* ZCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCAppDelegate.m; sourceTree = "<group>"; };
+		37727A981A0A7C3400E442FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		37727A9B1A0A7C3400E442FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		37727A9D1A0A7C3400E442FC /* ZCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCViewController.h; sourceTree = "<group>"; };
+		37727A9E1A0A7C3400E442FC /* ZCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCViewController.m; sourceTree = "<group>"; };
+		37727AA01A0A7C3400E442FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37727AA61A0A7C3400E442FC /* 陀螺仪DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "陀螺仪DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37727AA71A0A7C3400E442FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37727AAF1A0A7C3500E442FC /* 陀螺仪DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "陀螺仪DemoTests-Info.plist"; sourceTree = "<group>"; };
+		37727AB11A0A7C3500E442FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37727AB31A0A7C3500E442FC /* ___DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___DemoTests.m"; sourceTree = "<group>"; };
+		37727ABD1A0A808C00E442FC /* OldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldViewController.h; sourceTree = "<group>"; };
+		37727ABE1A0A808C00E442FC /* OldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldViewController.m; sourceTree = "<group>"; };
+		3796198F1A1A416000B434D3 /* ZCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCLog.h; sourceTree = "<group>"; };
+		37A608EF1AAD7CBE00849A04 /* xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xx.h; sourceTree = "<group>"; };
+		37BF74C31A1DC13F00DD5E2C /* ZCMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMotionManager.h; sourceTree = "<group>"; };
+		37BF74C41A1DC13F00DD5E2C /* ZCMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMotionManager.m; sourceTree = "<group>"; };
+		37BF74C71A1DD25E00DD5E2C /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		37BF74C81A1DD25E00DD5E2C /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		37BF74CA1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		37BF74CB1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		37BF74CE1A1DD2EB00DD5E2C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		37BF74D01A1DD2F500DD5E2C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		37BF74D21A1DD32300DD5E2C /* OpenGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController.h; sourceTree = "<group>"; };
+		37BF74D31A1DD32300DD5E2C /* OpenGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37727A7F1A0A7C3400E442FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BF74D11A1DD2F500DD5E2C /* GLKit.framework in Frameworks */,
+				37BF74CF1A1DD2EB00DD5E2C /* OpenGLES.framework in Frameworks */,
+				37727A881A0A7C3400E442FC /* CoreGraphics.framework in Frameworks */,
+				37727A8A1A0A7C3400E442FC /* UIKit.framework in Frameworks */,
+				37727A861A0A7C3400E442FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37727AA31A0A7C3400E442FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37727AA81A0A7C3400E442FC /* XCTest.framework in Frameworks */,
+				37727AAA1A0A7C3500E442FC /* UIKit.framework in Frameworks */,
+				37727AA91A0A7C3500E442FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37727A791A0A7C3400E442FC = {
+			isa = PBXGroup;
+			children = (
+				37727A8B1A0A7C3400E442FC /* 陀螺仪Demo */,
+				37727AAD1A0A7C3500E442FC /* 陀螺仪DemoTests */,
+				37727A841A0A7C3400E442FC /* Frameworks */,
+				37727A831A0A7C3400E442FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37727A831A0A7C3400E442FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37727A821A0A7C3400E442FC /* 陀螺仪Demo.app */,
+				37727AA61A0A7C3400E442FC /* 陀螺仪DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37727A841A0A7C3400E442FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37BF74D01A1DD2F500DD5E2C /* GLKit.framework */,
+				37BF74CE1A1DD2EB00DD5E2C /* OpenGLES.framework */,
+				37727A851A0A7C3400E442FC /* Foundation.framework */,
+				37727A871A0A7C3400E442FC /* CoreGraphics.framework */,
+				37727A891A0A7C3400E442FC /* UIKit.framework */,
+				37727AA71A0A7C3400E442FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37727A8B1A0A7C3400E442FC /* 陀螺仪Demo */ = {
+			isa = PBXGroup;
+			children = (
+				37BF74C61A1DD25400DD5E2C /* ZCOpenGL */,
+				37727A941A0A7C3400E442FC /* ZCAppDelegate.h */,
+				37727A951A0A7C3400E442FC /* ZCAppDelegate.m */,
+				37727A971A0A7C3400E442FC /* Main_iPhone.storyboard */,
+				37727A9A1A0A7C3400E442FC /* Main_iPad.storyboard */,
+				37727A9D1A0A7C3400E442FC /* ZCViewController.h */,
+				37727A9E1A0A7C3400E442FC /* ZCViewController.m */,
+				37BF74D21A1DD32300DD5E2C /* OpenGLViewController.h */,
+				37BF74D31A1DD32300DD5E2C /* OpenGLViewController.m */,
+				37727ABD1A0A808C00E442FC /* OldViewController.h */,
+				37727ABE1A0A808C00E442FC /* OldViewController.m */,
+				37BF74C31A1DC13F00DD5E2C /* ZCMotionManager.h */,
+				37BF74C41A1DC13F00DD5E2C /* ZCMotionManager.m */,
+				3796198F1A1A416000B434D3 /* ZCLog.h */,
+				37727AA01A0A7C3400E442FC /* Images.xcassets */,
+				37727A8C1A0A7C3400E442FC /* Supporting Files */,
+			);
+			path = "陀螺仪Demo";
+			sourceTree = "<group>";
+		};
+		37727A8C1A0A7C3400E442FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37727A8D1A0A7C3400E442FC /* 陀螺仪Demo-Info.plist */,
+				37727A8E1A0A7C3400E442FC /* InfoPlist.strings */,
+				37727A911A0A7C3400E442FC /* main.m */,
+				37727A931A0A7C3400E442FC /* 陀螺仪Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37727AAD1A0A7C3500E442FC /* 陀螺仪DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				37727AB31A0A7C3500E442FC /* ___DemoTests.m */,
+				37727AAE1A0A7C3500E442FC /* Supporting Files */,
+			);
+			path = "陀螺仪DemoTests";
+			sourceTree = "<group>";
+		};
+		37727AAE1A0A7C3500E442FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37727AAF1A0A7C3500E442FC /* 陀螺仪DemoTests-Info.plist */,
+				37727AB01A0A7C3500E442FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BF74C61A1DD25400DD5E2C /* ZCOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				37A608EF1AAD7CBE00849A04 /* xx.h */,
+				37BF74CA1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.h */,
+				37BF74CB1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.m */,
+				37BF74C71A1DD25E00DD5E2C /* AGLKContext.h */,
+				37BF74C81A1DD25E00DD5E2C /* AGLKContext.m */,
+			);
+			path = ZCOpenGL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37727A811A0A7C3400E442FC /* 陀螺仪Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37727AB71A0A7C3500E442FC /* Build configuration list for PBXNativeTarget "陀螺仪Demo" */;
+			buildPhases = (
+				37727A7E1A0A7C3400E442FC /* Sources */,
+				37727A7F1A0A7C3400E442FC /* Frameworks */,
+				37727A801A0A7C3400E442FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "陀螺仪Demo";
+			productName = "陀螺仪Demo";
+			productReference = 37727A821A0A7C3400E442FC /* 陀螺仪Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37727AA51A0A7C3400E442FC /* 陀螺仪DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37727ABA1A0A7C3500E442FC /* Build configuration list for PBXNativeTarget "陀螺仪DemoTests" */;
+			buildPhases = (
+				37727AA21A0A7C3400E442FC /* Sources */,
+				37727AA31A0A7C3400E442FC /* Frameworks */,
+				37727AA41A0A7C3400E442FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37727AAC1A0A7C3500E442FC /* PBXTargetDependency */,
+			);
+			name = "陀螺仪DemoTests";
+			productName = "陀螺仪DemoTests";
+			productReference = 37727AA61A0A7C3400E442FC /* 陀螺仪DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37727A7A1A0A7C3400E442FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangcheng;
+				TargetAttributes = {
+					37727AA51A0A7C3400E442FC = {
+						TestTargetID = 37727A811A0A7C3400E442FC;
+					};
+				};
+			};
+			buildConfigurationList = 37727A7D1A0A7C3400E442FC /* Build configuration list for PBXProject "陀螺仪Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37727A791A0A7C3400E442FC;
+			productRefGroup = 37727A831A0A7C3400E442FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37727A811A0A7C3400E442FC /* 陀螺仪Demo */,
+				37727AA51A0A7C3400E442FC /* 陀螺仪DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37727A801A0A7C3400E442FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37727A9C1A0A7C3400E442FC /* Main_iPad.storyboard in Resources */,
+				37727AA11A0A7C3400E442FC /* Images.xcassets in Resources */,
+				37727A991A0A7C3400E442FC /* Main_iPhone.storyboard in Resources */,
+				37727A901A0A7C3400E442FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37727AA41A0A7C3400E442FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37727AB21A0A7C3500E442FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37727A7E1A0A7C3400E442FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37727ABF1A0A808C00E442FC /* OldViewController.m in Sources */,
+				37727A9F1A0A7C3400E442FC /* ZCViewController.m in Sources */,
+				37BF74C51A1DC13F00DD5E2C /* ZCMotionManager.m in Sources */,
+				37727A921A0A7C3400E442FC /* main.m in Sources */,
+				37BF74C91A1DD25E00DD5E2C /* AGLKContext.m in Sources */,
+				37BF74D41A1DD32300DD5E2C /* OpenGLViewController.m in Sources */,
+				37727A961A0A7C3400E442FC /* ZCAppDelegate.m in Sources */,
+				37BF74CC1A1DD27800DD5E2C /* AGLKVertexAttribArrayBuffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37727AA21A0A7C3400E442FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37727AB41A0A7C3500E442FC /* ___DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37727AAC1A0A7C3500E442FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37727A811A0A7C3400E442FC /* 陀螺仪Demo */;
+			targetProxy = 37727AAB1A0A7C3500E442FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37727A8E1A0A7C3400E442FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37727A8F1A0A7C3400E442FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37727A971A0A7C3400E442FC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37727A981A0A7C3400E442FC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		37727A9A1A0A7C3400E442FC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37727A9B1A0A7C3400E442FC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		37727AB01A0A7C3500E442FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37727AB11A0A7C3500E442FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37727AB51A0A7C3500E442FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37727AB61A0A7C3500E442FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37727AB81A0A7C3500E442FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "陀螺仪Demo/陀螺仪Demo-Prefix.pch";
+				INFOPLIST_FILE = "陀螺仪Demo/陀螺仪Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37727AB91A0A7C3500E442FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "陀螺仪Demo/陀螺仪Demo-Prefix.pch";
+				INFOPLIST_FILE = "陀螺仪Demo/陀螺仪Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37727ABB1A0A7C3500E442FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/陀螺仪Demo.app/陀螺仪Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "陀螺仪Demo/陀螺仪Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "陀螺仪DemoTests/陀螺仪DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37727ABC1A0A7C3500E442FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/陀螺仪Demo.app/陀螺仪Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "陀螺仪Demo/陀螺仪Demo-Prefix.pch";
+				INFOPLIST_FILE = "陀螺仪DemoTests/陀螺仪DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37727A7D1A0A7C3400E442FC /* Build configuration list for PBXProject "陀螺仪Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37727AB51A0A7C3500E442FC /* Debug */,
+				37727AB61A0A7C3500E442FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37727AB71A0A7C3500E442FC /* Build configuration list for PBXNativeTarget "陀螺仪Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37727AB81A0A7C3500E442FC /* Debug */,
+				37727AB91A0A7C3500E442FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37727ABA1A0A7C3500E442FC /* Build configuration list for PBXNativeTarget "陀螺仪DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37727ABB1A0A7C3500E442FC /* Debug */,
+				37727ABC1A0A7C3500E442FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37727A7A1A0A7C3400E442FC /* Project object */;
+}
